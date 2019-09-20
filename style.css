@@ -29,7 +29,7 @@ p {
 }
 
 p:last-child {
-  margin-bottom: 0;
+  margin-bottom: 20;
 }
 
 h1,
@@ -100,7 +100,7 @@ nav a:first-child {
 
 /* footer */
 
-footer {
+/* footer {
   padding: 30px 0;
   clear: both;
   font-size: 12px;
@@ -108,9 +108,9 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #e7eeee;
   height: 50px;
-}
+} */
 
 h3,
 h2 {
@@ -196,6 +196,7 @@ input[type="email"],
 textarea {
   display: block;
   width: 100%;
+  background-color: #f4eff7;
 }
 
 input[type="text"],
@@ -203,8 +204,8 @@ input[type="email"],
 textarea {
   height: 35px;
   padding: 0 10px;
-  font-size: 14px;
-  border: 1px solid #dddddd;
+  font-size: 20px;
+  border: 1px solid #996585;
 }
 
 textarea {
@@ -214,7 +215,7 @@ textarea {
 input[type="submit"] {
   padding: 10px 30px;
   font-size: 18px;
-  color: #ffffff;
+  color: #86297a;
   cursor: pointer;
   background: #86418f;
   border: 0 none;
